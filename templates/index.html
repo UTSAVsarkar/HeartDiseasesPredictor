@@ -24,6 +24,15 @@ body {
   font-size: 12px;
   line-height: 30px;
   color: #777;
+  animation: change1 10s infinite;
+}
+
+@keyframes change1{
+  0%{background-color: #F0F8FF ;}
+  25%{background-color: #B0E0E6;}
+  50%{background-color: #87CEFA;}
+  75%{background-color: #00BFFF;}
+  100%{background-color: #1E90FF;}
 }
 
 .container {
@@ -148,9 +157,16 @@ fieldset {
 :-ms-input-placeholder {
   color: #888;
 }
+h1{
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+    text-align: center;
+}
     </style>
 </head>
 <body>
+<h1>OCEAN BRICKS</h1>
 <div class="container">
   <form id="contact" action="" method="POST">
     <h3>Please Fill this form</h3>
